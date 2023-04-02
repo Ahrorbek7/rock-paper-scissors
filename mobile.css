@@ -1,0 +1,56 @@
+@media screen and (max-width:578px) {
+    .container{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .nav-theme{
+        flex-direction: column;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: 70%;
+    }
+    .nav-theme h1{
+        font-size: 22px;
+    }
+    .nav-theme button{
+        padding: 1rem;
+    }
+    .selection{
+        display: flex;
+        width: 100% !important;
+        height: 20vh !important;
+    }
+    .selection .fas.fa-hand-paper{
+        padding: 2rem;
+        margin: 1rem ;
+        border: 10px solid #0d99ff;
+    }
+    .selection .fas.fa-hand-rock{
+        padding: 2rem;
+        margin: 1rem ;
+        border: 10px solid #db2e4d;
+    }
+    .selection .fas.fa-hand-scissors{
+        padding: 2rem;
+        margin: 1rem ;
+        border: 10px solid #eda824;
+    }
+    .game{
+        margin: 10rem auto;
+        height: 80vh;
+    }
+    .showen i{
+        color: #373e5c;
+        margin: 0 1rem;
+        border-radius: 50%;
+        font-size: 40px;
+        background: #e2e2e2;
+        border: 0.8rem solid rgb(47, 144, 255);
+    }
+    .game h2{
+        font-size: 23px;
+        margin: 0;
+    }
+}

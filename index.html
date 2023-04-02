@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R-P-S Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e391ce7786.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./mobile.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="nav-theme">
+      <h1>Rock Paper Scissors</h1>
+      <button>
+        <h4>SCORE</h4>
+        <h3 id="playerScore">0</h3>
+      </button>
+    </div>
+    <div class="container">
+      <div class="selection">
+        <button class="fas fa-hand-paper" id="paper"></button>
+        <!-- <span id="span1"></span> -->
+        <!-- <span id="span2"></span> -->
+        <button class="fas fa-hand-scissors" id="scissors"></button>
+        <button class="fas fa-hand-rock" id="rock"></button>
+        <!-- <span id="span3"></span> -->
+      </div>
+      <p id="demo2"></p>
+      <div class="game">
+        <div class="showen">
+          <div class="show">
+            <i class="bi bi-person-fill"></i>
+          </div>
+          <div class="show computer">
+            <i class="bi bi-android"></i>
+          </div>
+        </div>
+        <h2 id="demo" style="text-align: center">TRY YOUR LUCK</h2>
+        <div class="btnDad" style="display: flex;">
+        <button class="refr" onclick="location.reload()">PLAY AGAIN</button>
+        <button id="myBtn">Rules</button>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <img class="rule-img" src="./rules.png" alt="rules">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
